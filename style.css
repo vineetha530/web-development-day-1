@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color:  hsl(233, 47%, 7%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.container {
+    width: 80%;
+    height: 418px;
+    margin: 10% auto;
+    background-color: #fff;
+    display: flex;
+    border-radius: 10px;
+}
+#left {
+    width: 50%;
+    background-color: hsl(244, 38%, 16%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#right {
+    width: 50%;
+    background-image: url(images/image-header-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: hsl(277, 64%, 61%) ;
+    background-blend-mode: luminosity;
+}
+.text {
+    width: 78%;
+    margin: 60px auto;
+}
+span{
+    color:hsl(277, 64%, 61%) ;
+}
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 200;
+    text-align: justify;
+    line-height: 1.5;
+}
+ .biglist {
+    list-style: none;
+    position: relative;
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 90px;
+    color: hsl(0, 0%, 100%);
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    width: 80%;
+}
+.lillist {
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75) ;
+    margin-top: 6px;
+    font-size: 13px;
+    text-align: right;
+   width: 77%;
+}
+.biglist li {
+	color: red;
+}
+.text p {
+	color: yellow;
+}
+.lillist li {
+	color: #00FF00;
+}
